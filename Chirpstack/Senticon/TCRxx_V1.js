@@ -1,4 +1,33 @@
 /**
+Values can be written in bulk
+
+{
+    "write1": 22,
+    "write2": 1,
+    "write3": 2,
+    "write4": 700,
+    "write5": 2,
+    "write6": 500
+}
+write1 = Room Setpoint
+write1 = Heating deadzone
+write1 = Cooling deadzone
+write1 = CO2 setpoint
+write1 = Temp P-band
+write1 = CO2 P-band
+
+
+or as single register and value
+{
+    "register": 501,
+    "value": 1
+}
+
+https://www.senticon.co.uk/docs-ds?id=8
+*/
+
+
+/**
  * Decode uplink function
  * 
  * @param {object} input
