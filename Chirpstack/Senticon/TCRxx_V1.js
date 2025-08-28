@@ -52,16 +52,16 @@ function decodeUplink(input) {
 
   decoded.Temperature = twoBytes(2) / 10;
   decoded.Humidity = twoBytes(4) / 10;
-  decoded.CO2 = twoBytes(8);
-  decoded.VOC = twoBytes(12);
-  decoded.DewPoint = twoBytes(16) / 10;
-  decoded.U1 = twoBytes(20) / 10;
-  decoded.U2 = twoBytes(22) / 10;
-  decoded.U3 = twoBytes(24) / 10;
-  decoded.U4 = twoBytes(26) / 10;
-  decoded.Y1 = twoBytes(28) / 10;
-  decoded.Y2 = twoBytes(30) / 10;
-  decoded.Y3 = twoBytes(32) / 10;
+  decoded.CO2 = twoBytes(6);
+  decoded.VOC = twoBytes(8);
+  decoded.DewPoint = twoBytes(10) / 10;
+  decoded.U1 = twoBytes(12) / 10;
+  decoded.U2 = twoBytes(14) / 10;
+  decoded.U3 = twoBytes(16) / 10;
+  decoded.U4 = twoBytes(18) / 10;
+  decoded.Y1 = twoBytes(20) / 10;
+  decoded.Y2 = twoBytes(22) / 10;
+  decoded.Y3 = twoBytes(24) / 10;
 
 
 
