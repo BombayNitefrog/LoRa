@@ -1,0 +1,91 @@
+/**
+ * Decode uplink function
+ * 
+ * @param {object} input
+ * @param {number[]} input.bytes Byte array containing the uplink payload, e.g. [255, 230, 255, 0]
+ * @param {number} input.fPort Uplink fPort.
+ * @param {Record<string, string>} input.variables Object containing the configured device variables.
+ * 
+ * @returns {{data: object}} Object representing the decoded payload.
+ */
+var bytes;
+
+
+function twoBytes(byte1) {
+  return (bytes[byte1] << 8) | (bytes[byte1 + 1])
+}
+
+
+function decodeUplink(input) {
+  bytes = input.bytes;
+  var decoded = {};
+  var value = 0;
+
+  decoded.Temperature = twoBytes(2) / 10;
+  decoded.Humidity = twoBytes(4) / 10;
+  decoded.CO2 = twoBytes(8);
+  decoded.VOC = twoBytes(12);
+  decoded.DewPoint = twoBytes(16) / 10;
+  decoded.U1 = twoBytes(20) / 10;
+  decoded.U2 = twoBytes(22) / 10;
+  decoded.U3 = twoBytes(24) / 10;
+  decoded.U4 = twoBytes(26) / 10;
+  decoded.Y1 = twoBytes(28) / 10;
+  decoded.Y2 = twoBytes(30) / 10;
+  decoded.Y3 = twoBytes(32) / 10;
+
+
+
+  return {
+    data: decoded
+  };
+}
+
+/**
+ * Encode downlink function.
+ * 
+ * @param {object} input
+ * @param {object} input.data Object representing the payload that must be encoded.
+ * @param {Record<string, string>} input.variables Object containing the configured device variables.
+ * 
+ * @returns {{bytes: number[]}} Byte array containing the downlink payload.
+ */
+function encodeDownlink(input) {
+
+  let bytes = [0x3E, 0x44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x23];
+  let value = 0
+  
+  // Write standard
+  if(input.data?.write1) {
+    value = Math.round(input.data.write1 * 10);
+    bytes[2] = (value >> 8) & 0xFF;
+    bytes[3] = value & 0xFF;
+    value = Math.round(input.data.write2 * 10);
+    bytes[4] = (value >> 8) & 0xFF;
+    bytes[5] = value & 0xFF;
+    value = Math.round(input.data.write3 * 10);
+    bytes[6] = (value >> 8) & 0xFF;
+    bytes[7] = value & 0xFF;
+    value = Math.round(input.data.write4 * 10);
+    bytes[8] = (value >> 8) & 0xFF;
+    bytes[9] = value & 0xFF;
+    value = Math.round(input.data.write5 * 10);
+    bytes[10] = (value >> 8) & 0xFF;
+    bytes[11] = value & 0xFF;
+    value = Math.round(input.data.write6 * 10);
+    bytes[12] = (value >> 8) & 0xFF;
+    bytes[13] = value & 0xFF;
+  }
+  // Write single
+  if(input.data?.value) {
+    const header = ">P";
+    const regHex = Number(input.data.register).toString(16).toUpperCase().padStart(4, "0");
+    const valHex = Number(input.data.value * 10).toString(16).toUpperCase().padStart(8, "0");
+    const footer = "#";
+    const str = header + regHex + valHex + footer;
+    bytes = Array.from(Buffer.from(str, "ascii"));
+  }
+  return {
+    bytes: bytes
+  };
+}
