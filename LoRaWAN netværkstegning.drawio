@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.8">
   <diagram name="Page-1" id="43wKG7HOP1xWI7Qs5Ktr">
-    <mxGraphModel dx="2837" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1135" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gUlcQ50aIHoppvj8kaPU-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="25" y="420" width="700" height="380" as="geometry" />
+          <mxGeometry x="10" y="420" width="700" height="380" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="25" y="10" width="700" height="410" as="geometry" />
+          <mxGeometry x="10" y="10" width="700" height="410" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="gUlcQ50aIHoppvj8kaPU-1" target="gUlcQ50aIHoppvj8kaPU-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -19,28 +19,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-1" value="LoRaWAN Device" style="image;html=1;image=img/lib/clip_art/telecommunication/Signal_tower_on_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="105" y="670" width="80" height="80" as="geometry" />
+          <mxGeometry x="90" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="gUlcQ50aIHoppvj8kaPU-2" target="gUlcQ50aIHoppvj8kaPU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-2" value="LoRaWAN Gateway" style="image;html=1;image=img/lib/clip_art/networking/Print_Server_Wireless_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="105" y="470" width="80" height="80" as="geometry" />
+          <mxGeometry x="90" y="470" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-4" value="LoRaWAN Network Server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="330" y="300" width="80" height="80" as="geometry" />
+          <mxGeometry x="315" y="300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="gUlcQ50aIHoppvj8kaPU-5" target="gUlcQ50aIHoppvj8kaPU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-5" value="N4 Server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="105" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="90" y="140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="gUlcQ50aIHoppvj8kaPU-6" target="gUlcQ50aIHoppvj8kaPU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-6" value="EBO Server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="330" y="50" width="80" height="80" as="geometry" />
+          <mxGeometry x="315" y="50" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="gUlcQ50aIHoppvj8kaPU-7" target="gUlcQ50aIHoppvj8kaPU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -51,7 +51,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-7" value="IQVision Server" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="585" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="570" y="140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="gUlcQ50aIHoppvj8kaPU-11" target="gUlcQ50aIHoppvj8kaPU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-11" value="LoRaWAN Gateway" style="image;html=1;image=img/lib/clip_art/networking/Print_Server_Wireless_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="585" y="470" width="80" height="80" as="geometry" />
+          <mxGeometry x="570" y="470" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="gUlcQ50aIHoppvj8kaPU-12" target="gUlcQ50aIHoppvj8kaPU-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -73,25 +73,62 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-12" value="LoRaWAN Device" style="image;html=1;image=img/lib/clip_art/telecommunication/Signal_tower_on_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="585" y="670" width="80" height="80" as="geometry" />
+          <mxGeometry x="570" y="670" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;LoRaWAN Enheder&lt;/h1&gt;&lt;p&gt;Hver device indeholder en krypteringsnøgle, som er unik.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Hver device har et unikt device ID (DevEUI)&lt;/p&gt;&lt;p&gt;LoRaWAN pakkerne krypteres og sendes trådløst til gateway&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="765" y="670" width="380" height="130" as="geometry" />
+          <mxGeometry x="750" y="670" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;LoRaWAN Gateway&lt;/h1&gt;&lt;p&gt;Hver gateway &quot;ringer hjem&quot; til Netværksserveren og får en liste over devices (DevEUI) som den skal videresende data fra.&lt;/p&gt;&lt;p&gt;Gatewayen sender data til netværksserveren over MQTT. Dataen i MQTT pakken er stadigvæk krypteret og gatewayen kan ikke se selve dataen fra enheden.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="765" y="500" width="380" height="140" as="geometry" />
+          <mxGeometry x="750" y="500" width="380" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;LoRaWAN Netværksserver&lt;/h1&gt;&lt;div&gt;Netværksserveren indeholder en liste over alle enheder og gateways på netværket, samt alle dekrypteringsnøgler og codecs til enhederne.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;De dekrypterede beskeder kan sendes videre til serverne via forskellige protokoller.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="765" y="300" width="380" height="170" as="geometry" />
+          <mxGeometry x="750" y="300" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Servere&lt;/h1&gt;&lt;div&gt;Serverne modtager data fra LoRaWAN enheder via MQTT, API integration m.m.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vi anbefaler MQTT uden TLS, da det er et internt netværk og konfigurationen er temmelig langhåret.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="820" y="130" width="380" height="140" as="geometry" />
+          <mxGeometry x="750" y="100" width="380" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-34" value="Datacenter" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="25" y="10" width="130" height="30" as="geometry" />
+          <mxGeometry x="10" y="10" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gUlcQ50aIHoppvj8kaPU-36" value="Remote Location" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="25" y="420" width="130" height="30" as="geometry" />
+          <mxGeometry x="10" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wbJeWK2ZSFlLPSCtHIbh-1" target="gUlcQ50aIHoppvj8kaPU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-3" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wbJeWK2ZSFlLPSCtHIbh-2">
+          <mxGeometry x="-0.2294" y="-1" relative="1" as="geometry">
+            <mxPoint x="-81" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wbJeWK2ZSFlLPSCtHIbh-1" target="gUlcQ50aIHoppvj8kaPU-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="430" />
+              <mxPoint x="610" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-6" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wbJeWK2ZSFlLPSCtHIbh-4">
+          <mxGeometry x="0.6683" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wbJeWK2ZSFlLPSCtHIbh-1" target="gUlcQ50aIHoppvj8kaPU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="430" />
+              <mxPoint x="130" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-7" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wbJeWK2ZSFlLPSCtHIbh-5">
+          <mxGeometry x="0.9344" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbJeWK2ZSFlLPSCtHIbh-1" value="Tekniker" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
